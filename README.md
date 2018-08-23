@@ -1,5 +1,5 @@
 # python_script
-script always day
+script every day
 
 1 Change_pass_cisco504g.py - Chenge password for IP Tel Cisco504g
 
