@@ -1,0 +1,11 @@
+- hosts: testv
+  sudo: yes
+  tasks:
+  - name: ssh_copy_id
+    authorized_key:
+      user: "root"
+      key: "{{ lookup('file', '/root/.ssh/id_rsa.pub') }}"
+  - name: "disableroot"
+    shell: sed -i -e  's/PasswordAuthentication yes/PasswordAuthentication no/g' /etc/ssh/sshd_config ; sed -i -e  's/UsePAM yes/UsePAM no/g' /etc/ssh/sshd_config
+  - name: "sshd restart"
+    shell: service sshd restart
