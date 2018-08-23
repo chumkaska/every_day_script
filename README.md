@@ -12,3 +12,13 @@ script every day
 5 nginxpars.py - parser nginx logs
 
 6 sshpars.py - parser ssh logs (Failed connect)
+
+# Ansible
+
+1 docker-project.yml - Install on CentOS7 
+
+install: update sys docker python docker-compose wget git update-pip git
+
+Git: Clone Pull
+
+Start: Docker Docker-compose up -d
