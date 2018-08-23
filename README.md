@@ -22,6 +22,7 @@ install: update sys docker python docker-compose wget git update-pip git
 Git: Clone Pull
 
 Start: Docker Docker-compose up -d
+
 2 ssh-copy-id-root-no.yml - ssh-copy-id root edit sshd_conf PasswordAuthentication NO  
 
 # Bash
