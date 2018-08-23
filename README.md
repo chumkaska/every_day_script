@@ -22,3 +22,5 @@ install: update sys docker python docker-compose wget git update-pip git
 Git: Clone Pull
 
 Start: Docker Docker-compose up -d
+
+# Bash
