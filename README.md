@@ -1,7 +1,7 @@
 # python_script
-my_script always day	
+script always day
 
-1. Change_pass_cisco504g.py - Chenge password for IP Tel Cisco504g
+1 Change_pass_cisco504g.py - Chenge password for IP Tel Cisco504g
 
 2  SQL_regular.py  
 
