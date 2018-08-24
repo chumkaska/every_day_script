@@ -5,7 +5,7 @@ script every day
 
 2  SQL_regular.py  
 
-3 Beckup_mysql.py - Beckup dump mysql remote ssh host (1-31 every month (1 day the daily backups are deleted for the year before last), 1st of every month, 31 December of each year)
+3 Backup_mysql.py - Backup dump mysql remote ssh host (1-31 every month (1 day the daily backups are deleted for the year before last), 1st of every month, 31 December of each year)
 
 4 generator_serial_n.py - generator serial number PC
 
