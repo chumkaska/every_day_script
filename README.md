@@ -15,16 +15,4 @@ script every day
 
 # Ansible
 
-1 docker-project.yml - Install on CentOS7 
-
-install: update sys docker python docker-compose wget git update-pip git
-
-Git: Clone Pull
-
-Start: Docker Docker-compose up -d
-
-2 ssh-copy-id-root-no.yml - ssh-copy-id root edit sshd_conf PasswordAuthentication NO  
-
-3 zabbix_agent_upgrade.yml - update zabbix agent 3.0 - 3.4 (cnf zabbix_agentd.conf)
-
 # Bash
