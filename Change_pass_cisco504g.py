@@ -11,7 +11,6 @@ def cisco(ip):
     browser=Chrome(options=opts)
     browser.get('http://' + ip + '/admin/advanced') # открываем браузер
     system_button = browser.find_element_by_xpath('//*[@id="navSystem"]/a') # ищем элемент по xpath
-    # для удобной работы с xpath можно скачать плагин на браузер xpath checker
     system_button.click()
     system_button = browser.find_element_by_id('navSystem')
     system_button.click
